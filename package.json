@@ -1,0 +1,20 @@
+{
+  "name": "token-parity-checker",
+  "version": "0.1.0",
+  "description": "Diffs design tokens between a Figma/JSON export and code, reports drift using Claude for the reasoning step.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test src/**/*.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

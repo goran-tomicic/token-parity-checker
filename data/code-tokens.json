@@ -1,0 +1,11 @@
+[
+  { "name": "color.primary", "value": "#3B82F6", "category": "color" },
+  { "name": "color.secondary", "value": "#7C3AED", "category": "color" },
+  { "name": "color.background", "value": "#FFFFFF", "category": "color" },
+  { "name": "color.success", "value": "#22C55E", "category": "color" },
+  { "name": "spacing.sm", "value": "8px", "category": "spacing" },
+  { "name": "spacing.md", "value": "12px", "category": "spacing" },
+  { "name": "spacing.lg", "value": "24px", "category": "spacing" },
+  { "name": "typography.body.size", "value": "16px", "category": "typography" },
+  { "name": "typography.heading.size", "value": "28px", "category": "typography" }
+]

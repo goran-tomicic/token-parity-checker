@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.example
+*.log
+.DS_Store
+
+# internal planning docs — not published to GitHub
+CLAUDE.md
+docs/
